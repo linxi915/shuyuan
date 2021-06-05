@@ -4,6 +4,10 @@
 活动入口： 京东极速版-我的-省钱大赢家-翻翻乐
 极速版大赢家翻翻乐活动
 
+[task_local]
+# 翻翻乐
+1 */1 1-30 6 * https://raw.githubusercontent.com/linxi915/shuyuan/shuyuan/fanfanle.js, tag=大赢家翻翻乐, img-url=https://qxzy.top/rules/QuantumultX/img/jd_speed_sign.png, enabled=true
+
  */
 const $ = new Env('翻翻乐');
 //Node.js用户请在jdCookie.js处填写京东ck;
