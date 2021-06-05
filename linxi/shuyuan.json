@@ -5,8 +5,7 @@
       "config": "1 */1 1-30 6 * https://raw.githubusercontent.com/linxi915/shuyuan/shuyuan/fanfanle.js, tag=大赢家翻翻乐, img-url=https://qxzy.top/rules/QuantumultX/img/jd_speed_sign.png, enabled=true"
     },
     {
-      "config": "5 6-18/6 * * * https://raw.githubusercontent.com/linxi915/shuyuan/shuyuan/shuiguo.js, tag=东东农场, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jdnc.png, enabled=true
-"
+      "config": "5 6-18/6 * * * https://raw.githubusercontent.com/linxi915/shuyuan/shuyuan/shuiguo.js, tag=东东农场, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jdnc.png, enabled=true"
     },
     {
       "config": ""
