@@ -2,7 +2,7 @@
   "name": "linxi的task",
   "task": [
     {
-      "config": ""
+      "config": "1 */1 1-30 6 * https://raw.githubusercontent.com/linxi915/shuyuan/shuyuan/fanfanle.js, tag=大赢家翻翻乐, img-url=https://qxzy.top/rules/QuantumultX/img/jd_speed_sign.png, enabled=true"
     },
     {
       "config": ""
