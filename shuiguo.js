@@ -4,8 +4,8 @@
 东东农场活动链接：https://h5.m.jd.com/babelDiy/Zeus/3KSjXqQabiTuD1cJ28QskrpWoBKT/index.html
 ==========================Quantumultx=========================
 [task_local]
-#jd免费水果
-5 6-18/6 * * * https://jdsharedresourcescdn.azureedge.net/jdresource/jd_fruit.js, tag=东东农场, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jdnc.png, enabled=true
+# 东东农场
+5 6-18/6 * * * https://raw.githubusercontent.com/linxi915/shuyuan/shuyuan/shuiguo.js, tag=东东农场, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jdnc.png, enabled=true
 
 */
 const $ = new Env('东东农场');
