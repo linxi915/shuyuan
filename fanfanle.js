@@ -8,7 +8,7 @@
 const $ = new Env('翻翻乐');
 //Node.js用户请在jdCookie.js处填写京东ck;
 const jdCookieNode = $.isNode() ? require('./jdCookie.js') : '';
-const openum =$.isNode()?( process.env.Openum? process.env.Openum:5):5//翻牌次数 可以自己改
+const openum =$.isNode()?( process.env.Openum? process.env.Openum:4):4//翻牌次数 可以自己改
 const randomCount = $.isNode() ? 20 : 5;
 const notify = $.isNode() ? require('./sendNotify') : '';
 let merge = {}
