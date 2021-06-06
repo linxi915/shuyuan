@@ -7,7 +7,7 @@ linxi
 ===================quantumultx================
 [task_local]
 #东东健康社区
-13 1,6,22 * * * https://jdsharedresourcescdn.azureedge.net/jdresource/jd_health.js, tag=东东健康社区, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true
+13 1,6,22 * * * https://raw.githubusercontent.com/linxi915/shuyuan/shuyuan/JKshequ.js, tag=东东健康社区, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true
 
  */
 const $ = new Env("东东健康社区");
