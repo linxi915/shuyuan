@@ -26,7 +26,7 @@
       "config": "0 12 * * * https://raw.githubusercontent.com/linxi915/shuyuan/shuyuan/JD_WuLiu.js, tag=京东物流派件提醒, img-url=https://raw.githubusercontent.com/id77/QuantumultX/master/icon/jdWuLiu.png"
     },
     {
-      "config": ""
+      "config": "1 0-23/1 * * * https://raw.githubusercontent.com/linxi915/shuyuan/shuyuan/JDY_zheng.js, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true"
     },
     {
       "config": ""
