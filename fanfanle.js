@@ -5,7 +5,7 @@
 =================================Quantumultx=========================
 [task_local]
 #省钱大赢家之翻翻乐
-20 * * * * https://raw.githubusercontent.com/linxi915/shuyuan/shuyuan/fanfanle.js, tag=省钱大赢家之翻翻乐, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true
+21 * * * * https://raw.githubusercontent.com/linxi915/shuyuan/shuyuan/fanfanle.js, tag=省钱大赢家之翻翻乐, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true
 
  */
 const $ = new Env('省钱大赢家之翻翻乐');
