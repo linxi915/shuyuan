@@ -23,7 +23,7 @@
       "config": "20 13 * * 6 https://raw.githubusercontent.com/linxi915/shuyuan/shuyuan/jd_get_share_code.js, tag=获取互助码, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true"
     },
     {
-      "config": ""
+      "config": "0 12 * * * https://raw.githubusercontent.com/linxi915/shuyuan/shuyuan/JD_WuLiu.js, tag=京东物流派件提醒, img-url=https://raw.githubusercontent.com/id77/QuantumultX/master/icon/jdWuLiu.png"
     },
     {
       "config": ""
