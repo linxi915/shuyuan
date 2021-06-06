@@ -11,7 +11,7 @@
       "config": "13 1,6,22 * * * https://raw.githubusercontent.com/linxi915/shuyuan/shuyuan/JKshequ.js, tag=东东健康社区, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true"
     },
     {
-      "config": ""
+      "config": "1 7-21/2 * * * https://raw.githubusercontent.com/linxi915/shuyuan/shuyuan/Zdou.js, tag=种豆得豆, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jdzd.png, enabled=true"
     },
     {
       "config": ""
