@@ -8,7 +8,7 @@ Modified time: 2021-05-17 15:25:41
 ============QuantumultX==============
 [task_local]
 #京东资产变动通知
-2 9 * * * https://jdsharedresourcescdn.azureedge.net/jdresource/jd_bean_change.js, tag=京东资产变动通知, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true
+2 9 * * * https://raw.githubusercontent.com/linxi915/shuyuan/shuyuan/jd_bean.js, tag=京东资产变动通知, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true
 
  */
 const $ = new Env('京东资产变动通知');
