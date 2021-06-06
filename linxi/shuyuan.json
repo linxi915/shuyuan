@@ -17,7 +17,7 @@
       "config": "2 9 * * * https://raw.githubusercontent.com/linxi915/shuyuan/shuyuan/jd_bean.js, tag=京东资产变动通知, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true"
     },
     {
-      "config": ""
+      "config": "10 7 * * * https://raw.githubusercontent.com/linxi915/shuyuan/shuyuan/jd_ms.js, tag=京东秒秒币, img-url=https://raw.githubusercontent.com/yogayyy/Scripts/master/Icon/shylocks/jd_ms.jpg, enabled=true"
     },
     {
       "config": ""
