@@ -29,7 +29,7 @@
       "config": "1 0-23/1 * * * https://raw.githubusercontent.com/linxi915/shuyuan/shuyuan/JDY_zheng.js, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true"
     },
     {
-      "config": ""
+      "config": "30 16-23/1 * * * https://raw.githubusercontent.com/linxi915/shuyuan/shuyuan/JDY_ban.js, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true"
     },
     {
       "config": ""
