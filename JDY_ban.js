@@ -9,10 +9,11 @@
 export RAIN_NOTIFY_CONTROL="false"
 
 [task_local]
-#半点京豆雨
+# 半点京豆雨
 30 16-23/1 * * * https://raw.githubusercontent.com/linxi915/shuyuan/shuyuan/JDY_ban.js, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true
 
  */
+
 const $ = new Env('半点京豆雨');
 
 const notify = $.isNode() ? require('./sendNotify') : '';
