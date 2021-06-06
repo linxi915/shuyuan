@@ -10,7 +10,7 @@ export RAIN_NOTIFY_CONTROL="false"
 
 [task_local]
 #整点京豆雨
-1 0-23/1 * * * https://raw.githubusercontent.com/nianyuguai/longzhuzhu/main/qx/jd_super_redrain.js, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true
+1 0-23/1 * * * https://raw.githubusercontent.com/linxi915/shuyuan/shuyuan/JDY_zheng.js, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true
 
  */
 const $ = new Env('整点京豆雨');
