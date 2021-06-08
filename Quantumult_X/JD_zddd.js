@@ -6,7 +6,7 @@
 每个京东账号每天只能帮助3个人。多出的助力码将会助力失败。
 =====================================Quantumult X=================================
 [task_local]
-1 7-21/2 * * * https://raw.githubusercontent.com/linxi915/shuyuan/shuyuan/Zdou.js, tag=种豆得豆, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jdzd.png, enabled=true
+1 7-21/2 * * * https://raw.githubusercontent.com/linxi915/shuyuan/shuyuan/Quantumult_X/JD_zddd.js, tag=种豆得豆, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jdzd.png, enabled=true
 
 搬的https://github.com/uniqueque/QuantumultX/blob/4c1572d93d4d4f883f483f907120a75d925a693e/Script/jd_plantBean.js
 */
