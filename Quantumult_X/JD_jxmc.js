@@ -9,8 +9,8 @@
 脚本搬自lxk0301大佬
 ============Quantumultx===============
 [task_local]
-# 惊喜牧场
-20 0-23/3 * * * https://raw.githubusercontent.com/linxi915/shuyuan/shuyuan/Quantumult_X/JD_jxmc.js, tag=惊喜牧场, img-url=https://raw.githubusercontent.com/Orz-3/task/master/jd.png, enabled=true
+# 京喜牧场
+20 0-23/3 * * * https://raw.githubusercontent.com/linxi915/shuyuan/shuyuan/Quantumult_X/JD_jxmc.js, tag=京喜牧场, img-url=https://raw.githubusercontent.com/Orz-3/task/master/jd.png, enabled=true
 
 
  */
