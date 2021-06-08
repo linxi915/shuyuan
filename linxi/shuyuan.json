@@ -35,7 +35,7 @@
       "config": "15 0,6,13,19,21 * * * https://raw.githubusercontent.com/linxi915/shuyuan/shuyuan/JD_PK.js, tag=京享值PK,  img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true"
     },
     {
-      "config": ""
+      "config": "0 7 * * * https://raw.githubusercontent.com/linxi915/shuyuan/shuyuan/JD_jisu.js, tag=京东极速版, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true"
     },
     {
       "config": ""
