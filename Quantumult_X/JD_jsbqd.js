@@ -8,7 +8,7 @@
 ============Quantumultx===============
 [task_local]
 #京东极速版
-0 7 * * * https://raw.githubusercontent.com/linxi915/shuyuan/shuyuan/JD_jisu.js, tag=京东极速版, img-url=https://raw.githubusercontent.com/Orz-3/task/master/jd.png, enabled=true
+0 7 * * * https://raw.githubusercontent.com/linxi915/shuyuan/shuyuan/Quantumult_X/JD_jsbqd.js, tag=京东极速版, img-url=https://raw.githubusercontent.com/Orz-3/task/master/jd.png, enabled=true
 
 
 */
