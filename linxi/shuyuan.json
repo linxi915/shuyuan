@@ -32,7 +32,7 @@
       "config": "30 16-23/1 * * * https://raw.githubusercontent.com/linxi915/shuyuan/shuyuan/Quantumult_X/JD_bdjdy.js, tag=半点京豆雨, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true"
     },
     {
-      "config": "15 0,6,13,19,21 * * * https://raw.githubusercontent.com/linxi915/shuyuan/shuyua/Quantumult_X/JD_jxzpk.js, tag=京享值PK, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true"
+      "config": "15 0,6,13,19,21 * * * https://raw.githubusercontent.com/linxi915/shuyuan/shuyuan/Quantumult_X/JD_jxzpk.js, tag=京享值PK, tag=京享值PK, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true"
     },
     {
       "config": "0 7 * * * https://raw.githubusercontent.com/linxi915/shuyuan/shuyuan/Quantumult_X/JD_jsbqd.js, tag=京东极速版, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true"
