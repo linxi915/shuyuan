@@ -1,0 +1,5 @@
+安装
+
+#安装路径：首页 > 模块 > 安装新模块
+# BoxJs 稳定版https://raw.githubusercontent.com/chavyleung/scripts/master/box/rewrite/boxjs.rewrite.surge.sgmodule
+# BoxJs测试版https://raw.githubusercontent.com/chavyleung/scripts/master/box/rewrite/boxjs.rewrite.surge.tf.sgmodule
