@@ -8,7 +8,7 @@
  * > https://raw.githubusercontent.com/dompling/Script/master/jd/JD_extra.js
  *
  * # QuanX
- * 0 12 * * * https://raw.githubusercontent.com/linxi915/shuyuan/shuyuan/JD_WuLiu.js, tag=京东物流派件提醒, img-url=https://raw.githubusercontent.com/id77/QuantumultX/master/icon/jdWuLiu.png
+ * 0 12 * * * https://raw.githubusercontent.com/linxi915/shuyuan/shuyuan/Quantumult_X/JD_pjtx.js, tag=京东物流派件提醒, img-url=https://raw.githubusercontent.com/id77/QuantumultX/master/icon/jdWuLiu.png
  *
  */
 const $ = new Env('京东物流');
