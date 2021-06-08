@@ -7,7 +7,7 @@ Last Modified time: 2021-05-22 8:55:00
 ============Quantumultx===============
 [task_local]
 #京东秒秒币
-10 7 * * * https://raw.githubusercontent.com/linxi915/shuyuan/shuyuan/jd_ms.js, tag=京东秒秒币, img-url=https://raw.githubusercontent.com/yogayyy/Scripts/master/Icon/shylocks/jd_ms.jpg, enabled=true
+10 7 * * * https://raw.githubusercontent.com/linxi915/shuyuan/shuyuan/Quantumult_X/JD_mmb.js, tag=京东秒秒币, img-url=https://raw.githubusercontent.com/yogayyy/Scripts/master/Icon/shylocks/jd_ms.jpg, enabled=true
 
  */
 const $ = new Env('京东秒秒币');
