@@ -5,7 +5,7 @@
 ============Quantumultx===============
 [task_local]
 #京享值PK
-15 0,6,13,19,21 * * * https://raw.githubusercontent.com/hyzaw/scripts/main/ddo_pk.js, tag=京享值PK
+15 0,6,13,19,21 * * * https://raw.githubusercontent.com/hyzaw/scripts/Quantumult_X/JD_jxzpk.js, tag=京享值PK
 */
 const $ = new Env('京享值PK');
 $.toObj = (t, e = null) => {
