@@ -38,7 +38,7 @@
       "config": "0 7 * * * https://raw.githubusercontent.com/linxi915/shuyuan/shuyuan/JD_jisu.js, tag=京东极速版, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true"
     },
     {
-      "config": "20 0-23/3 * * * https://raw.githubusercontent.com/linxi915/shuyuan/shuyuan/Quantumult_X/JD_jxmc.js, tag=惊喜牧场, img-url=https://raw.githubusercontent.com/Orz-3/task/master/jd.png, enabled=true"
+      "config": "20 0-23/3 * * * https://raw.githubusercontent.com/linxi915/shuyuan/shuyuan/Quantumult_X/JD_jxmc.js, tag=京喜牧场, img-url=https://raw.githubusercontent.com/Orz-3/task/master/jd.png, enabled=true"
     },
     {
       "config": ""
