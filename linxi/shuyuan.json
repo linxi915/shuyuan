@@ -2,40 +2,40 @@
   "name": "linxi的库库",
   "task": [
     {
-      "config": "31 * * * * https://raw.githubusercontent.com/linxi915/shuyuan/shuyuan/fanfanle.js, tag=省钱大赢家之翻翻乐, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true"
+      "config": "31 * * * * https://raw.githubusercontent.com/linxi915/shuyuan/shuyuan/Quantumult_X/JD_sqdyj.js, tag=省钱大赢家之翻翻乐, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true"
     },
     {
-      "config": "5 6-18/6 * * * https://raw.githubusercontent.com/linxi915/shuyuan/shuyuan/shuiguo.js, tag=东东农场, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jdnc.png, enabled=true"
+      "config": "5 6-18/6 * * * https://raw.githubusercontent.com/linxi915/shuyuan/shuyuan/Quantumult_X/JD_ddnc.js, tag=东东农场, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jdnc.png, enabled=true"
     },
     {
-      "config": "13 1,6,22 * * * https://raw.githubusercontent.com/linxi915/shuyuan/shuyuan/JKshequ.js, tag=东东健康社区, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true"
+      "config": "13 1,6,22 * * * https://raw.githubusercontent.com/linxi915/shuyuan/shuyuan/Quantumult_X/JD_jksq.js, tag=东东健康社区, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true"
     },
     {
-      "config": "1 7-21/2 * * * https://raw.githubusercontent.com/linxi915/shuyuan/shuyuan/Zdou.js, tag=种豆得豆, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jdzd.png, enabled=true"
+      "config": "1 7-21/2 * * * https://raw.githubusercontent.com/linxi915/shuyuan/shuyuan/Quantumult_X/JD_zddd.js, tag=种豆得豆, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jdzd.png, enabled=true"
     },
     {
-      "config": "2 9 * * * https://raw.githubusercontent.com/linxi915/shuyuan/shuyuan/jd_bean.js, tag=京东资产变动通知, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true"
+      "config": "2 9 * * * https://raw.githubusercontent.com/linxi915/shuyuan/shuyuan/Quantumult_X/JD_zcbd.js, tag=京东资产变动通知, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true"
     },
     {
-      "config": "10 7 * * * https://raw.githubusercontent.com/linxi915/shuyuan/shuyuan/jd_ms.js, tag=京东秒秒币, img-url=https://raw.githubusercontent.com/yogayyy/Scripts/master/Icon/shylocks/jd_ms.jpg, enabled=true"
+      "config": "10 7 * * * https://raw.githubusercontent.com/linxi915/shuyuan/shuyuan/Quantumult_X/JD_mmb.js, tag=京东秒秒币, img-url=https://raw.githubusercontent.com/yogayyy/Scripts/master/Icon/shylocks/jd_ms.jpg, enabled=true"
     },
     {
-      "config": "20 13 * * 6 https://raw.githubusercontent.com/linxi915/shuyuan/shuyuan/jd_get_share_code.js, tag=获取互助码, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true"
+      "config": "20 13 * * 6 https://raw.githubusercontent.com/linxi915/shuyuan/shuyuan/Quantumult_X/JD_hqhzm.js, tag=获取互助码, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true"
     },
     {
-      "config": "0 12 * * * https://raw.githubusercontent.com/linxi915/shuyuan/shuyuan/JD_WuLiu.js, tag=京东物流派件提醒, img-url=https://raw.githubusercontent.com/id77/QuantumultX/master/icon/jdWuLiu.png"
+      "config": "0 12 * * * https://raw.githubusercontent.com/linxi915/shuyuan/shuyuan/Quantumult_X/JD_jdwl.js, tag=京东物流派件提醒, img-url=https://raw.githubusercontent.com/id77/QuantumultX/master/icon/jdWuLiu.png"
     },
     {
-      "config": "1 0-23/1 * * * https://raw.githubusercontent.com/linxi915/shuyuan/shuyuan/JDY_zheng.js, tag=整点京豆雨, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true"
+      "config": "1 0-23/1 * * * https://raw.githubusercontent.com/linxi915/shuyuan/shuyuan/Quantumult_X/JD_zdjdy.js, tag=整点京豆雨, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true"
     },
     {
-      "config": "30 16-23/1 * * * https://raw.githubusercontent.com/linxi915/shuyuan/shuyuan/JDY_ban.js, tag=半点京豆雨, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true"
+      "config": "30 16-23/1 * * * https://raw.githubusercontent.com/linxi915/shuyuan/shuyuan/Quantumult_X/JD_bdjdy.js, tag=半点京豆雨, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true"
     },
     {
-      "config": "15 0,6,13,19,21 * * * https://raw.githubusercontent.com/linxi915/shuyuan/shuyuan/JD_PK.js, tag=京享值PK,  img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true"
+      "config": "15 0,6,13,19,21 * * * https://raw.githubusercontent.com/linxi915/shuyuan/shuyua/Quantumult_X/JD_jxzpk.js, tag=京享值PK,  img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true"
     },
     {
-      "config": "0 7 * * * https://raw.githubusercontent.com/linxi915/shuyuan/shuyuan/JD_jisu.js, tag=京东极速版, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true"
+      "config": "0 7 * * * https://raw.githubusercontent.com/linxi915/shuyuan/shuyuan/Quantumult_X/JD_jsbqd.js, tag=京东极速版, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true"
     },
     {
       "config": "20 0-23/3 * * * https://raw.githubusercontent.com/linxi915/shuyuan/shuyuan/Quantumult_X/JD_jxmc.js, tag=京喜牧场, img-url=https://raw.githubusercontent.com/Orz-3/task/master/jd.png, enabled=true"
