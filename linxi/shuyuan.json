@@ -32,7 +32,7 @@
       "config": "30 16-23/1 * * * https://raw.githubusercontent.com/linxi915/shuyuan/shuyuan/JDY_ban.js, tag=半点京豆雨, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true"
     },
     {
-      "config": ""
+      "config": "15 0,6,13,19,21 * * * https://raw.githubusercontent.com/linxi915/shuyuan/shuyuan/JD_PK.js, tag=京享值PK,  img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true"
     },
     {
       "config": ""
