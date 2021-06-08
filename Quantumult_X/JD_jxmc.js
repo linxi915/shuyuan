@@ -10,7 +10,7 @@
 ============Quantumultx===============
 [task_local]
 # 惊喜牧场
-20 0-23/3 * * * https://jdsharedresourcescdn.azureedge.net/jdresource/jd_jxmc.js, tag=惊喜牧场, img-url=https://github.com/58xinian/icon/raw/master/jdgc.png, enabled=true
+20 0-23/3 * * * https://raw.githubusercontent.com/linxi915/shuyuan/shuyuan/Quantumult_X/JD_jxmc.js, tag=惊喜牧场, img-url=https://raw.githubusercontent.com/Orz-3/task/master/jd.png, enabled=true
 
 
  */
