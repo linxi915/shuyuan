@@ -5,7 +5,7 @@
 ==========================Quantumultx=========================
 [task_local]
 # 东东农场
-5 6-18/6 * * * https://raw.githubusercontent.com/linxi915/shuyuan/shuyuan/shuiguo.js, tag=东东农场, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jdnc.png, enabled=true
+5 6-18/6 * * * https://raw.githubusercontent.com/linxi915/shuyuan/shuyuan/Quantumult_X/JD_ddnc.js, tag=东东农场, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jdnc.png, enabled=true
 
 */
 const $ = new Env('东东农场');
