@@ -47,7 +47,7 @@
       "config": "30 10 * * * https://raw.githubusercontent.com/linxi915/shuyuan/shuyuan/Quantumult_X/JD_jdsy.js, tag=京东试用, img-url=https://raw.githubusercontent.com/ZCY01/img/master/jdtryv1.png, enabled=true"
     },
     {
-      "config": ""
+      "config": "5 10 * * * https://raw.githubusercontent.com/linxi915/shuyuan/shuyuan/Quantumult_X/JD_qxgz.js, tag=取关京东店铺商品, enabled=true"
     },
     {
       "config": ""
