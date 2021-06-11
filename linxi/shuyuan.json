@@ -54,7 +54,7 @@
       "config": "https://raw.githubusercontent.com/linxi915/shuyuan/shuyuan/Quantumult_X/JD_dhyqd.js, tag=动物联萌, img-url=https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/image/jd.png, enabled=true"
     },
     {
-      "config": ""
+      "config": "10 0,7,23 * * * https://raw.githubusercontent.com/linxi915/shuyuan/shuyuan/Quantumult_X/JD_zjd.js, tag=赚京豆, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jd_syj.png, enabled=true"
     },
     {
       "config": ""
