@@ -5,7 +5,7 @@ Last Modified time: 2021-5-21 17:58:02
 ============Quantumultx===============
 [task_local]
 #赚京豆
-10 0,7,23 * * * jd_syj.js, tag=赚京豆, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jd_syj.png, enabled=true
+10 0,7,23 * * * https://raw.githubusercontent.com/linxi915/shuyuan/shuyuan/Quantumult_X/JD_zjd.js, tag=赚京豆, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jd_syj.png, enabled=true
 
  */
 const $ = new Env('赚京豆');
