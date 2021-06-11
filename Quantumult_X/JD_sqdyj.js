@@ -207,8 +207,8 @@ function openRedReward(functionId = 'gambleChangeReward', type) {
             if (data['code'] === 0) {
               $.rewardData = data.data;
               if (data.data.rewardState === 1) {
-                if (data.data.rewardValue >= 0.6) {
-                  //已翻倍到0.6元，可以提现了
+                if (data.data.rewardValue >= 0.3) {
+                  //已翻倍到0.3元，可以提现了
                   $.canApCashWithDraw = true;
                   $.changeReward = false;
                   // message += `${data.data.rewardValue}元现金\n`
