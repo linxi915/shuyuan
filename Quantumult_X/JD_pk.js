@@ -10,7 +10,7 @@ cron 15 0,6,13,19,21 * * *
 ============Quantumultx===============
 [task_local]
 #京享值PK
-15 0,6,13,19,21 * * * https://raw.githubusercontent.com/linxi915/shuyuan/shuyuan/Quantumult_X/JD_pk.js, tag=京享值PK
+15 0,6,13,19,21 * * * https://raw.githubusercontent.com/linxi915/shuyuan/shuyuan/Quantumult_X/JD_pk.js, tag=京享值PK, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true
 
 */
 const $ = new Env('京享值PK');
