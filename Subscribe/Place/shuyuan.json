@@ -3,11 +3,11 @@
   "description": "Personal use only",
   "task": [
     {
-      "config": "31 * * * * https://raw.githubusercontent.com/linxi915/shuyuan/shuyuan/Quantumult_X/JD_sqdyj.js, tag=省钱大赢家之翻翻乐, img-url=https://raw.githubusercontent.com/linxi915/shuyuan/shuyuan/ICON/linxi.png, enabled=true"
+      "config": "31 * * * * https://raw.githubusercontent.com/linxi915/shuyuan/shuyuan/Quantumult_X/JD_sqdyj.js, tag=省钱大赢家之翻翻乐, img-url=https://raw.githubusercontent.com/linxi915/shuyuan/shuyuan/ICON/shuyuan.png, enabled=true"
     },
     {
       "config": "5 6-18/6 * * * https://raw.githubusercontent.com/linxi915/shuyuan/shuyuan/Quantumult_X/JD_ddnc.js, tag=东东农场, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jdnc.png, enabled=true"
-    },
+    },要
     {
       "config": "13 1,6,22 * * * https://raw.githubusercontent.com/linxi915/shuyuan/shuyuan/Quantumult_X/JD_jksq.js, tag=东东健康社区, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true"
     },
