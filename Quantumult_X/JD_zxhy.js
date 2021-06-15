@@ -4,8 +4,8 @@
 查看已开店铺会员入口:我的=>我的钱包=>卡包
 // quantumultx
 [task_local]
-#京东删除优惠券
-0 9 * * *https://raw.githubusercontent.com/linxi915/shuyuan/shuyuan/Quantumult_X/JD_zxhy.js, tag=京东删除优惠券, img-url=https://raw.githubusercontent.com/linxi915/shuyuan/shuyuan/ICON/shuyuan.png, enabled=true
+# 注销京东店铺会员
+0 9 * * *https://raw.githubusercontent.com/linxi915/shuyuan/shuyuan/Quantumult_X/JD_zxhy.js, tag=注销京东会员, img-url=https://raw.githubusercontent.com/linxi915/shuyuan/shuyuan/ICON/shuyuan.png, enabled=true
 
  */
 const $ = new Env('注销京东会员卡');
