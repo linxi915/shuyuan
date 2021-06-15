@@ -5,7 +5,7 @@
 // quantumultx
 [task_local]
 # 注销京东店铺会员
-0 9 * * *https://raw.githubusercontent.com/linxi915/shuyuan/shuyuan/Quantumult_X/JD_zxhy.js, tag=注销京东会员, img-url=https://raw.githubusercontent.com/linxi915/shuyuan/shuyuan/ICON/shuyuan.png, enabled=true
+0 9 * * *https://raw.githubusercontent.com/linxi915/shuyuan/shuyuan/Quantumult_X/JD_zxhy.js, tag=注销店铺会员卡, img-url=https://raw.githubusercontent.com/linxi915/shuyuan/shuyuan/ICON/shuyuan.png, enabled=true
 
  */
 const $ = new Env('注销京东会员卡');
