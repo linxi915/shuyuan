@@ -63,7 +63,7 @@
       "config": "11 0 * * 1 https://raw.githubusercontent.com/linxi915/shuyuan/shuyuan/Quantumult_X/JD_scyhj.js, tag=京东删除优惠券, img-url=https://raw.githubusercontent.com/linxi915/shuyuan/shuyuan/ICON/shuyuan.png, enabled=true"
     },
     {
-      "config": "0 9 * * *https://raw.githubusercontent.com/linxi915/shuyuan/shuyuan/Quantumult_X/JD_zxhy.js, tag=注销店铺会员卡, img-url=https://raw.githubusercontent.com/linxi915/shuyuan/shuyuan/ICON/shuyuan.png, enabled=true"
+      "config": "0 9 * * * https://raw.githubusercontent.com/linxi915/shuyuan/shuyuan/Quantumult_X/JD_zxhy.js, tag=注销店铺会员卡, img-url=https://raw.githubusercontent.com/linxi915/shuyuan/shuyuan/ICON/shuyuan.png, enabled=true"
     },
     {
       "config": ""
