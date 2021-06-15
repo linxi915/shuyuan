@@ -2,6 +2,11 @@
 注销京东会员卡
 是注销京东已开的店铺会员,不是京东plus会员
 查看已开店铺会员入口:我的=>我的钱包=>卡包
+// quantumultx
+[task_local]
+#京东删除优惠券
+0 9 * * *https://raw.githubusercontent.com/linxi915/shuyuan/shuyuan/Quantumult_X/JD_zxhy.js, tag=京东删除优惠券, img-url=https://raw.githubusercontent.com/linxi915/shuyuan/shuyuan/ICON/shuyuan.png, enabled=true
+
  */
 const $ = new Env('注销京东会员卡');
 //Node.js用户请在jdCookie.js处填写京东ck;
