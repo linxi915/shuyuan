@@ -5,7 +5,7 @@
 // quantumultx
 [task_local]
 #京东删除优惠券
-11 0 * * 1 https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/scripts/jd/jd_deleteCoupon.js, tag=京东删除优惠券, img-url=https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/image/jd.png, enabled=true
+11 0 * * 1 https://raw.githubusercontent.com/linxi915/shuyuan/shuyuan/Quantumult_X/JD_scyhj.js, tag=京东删除优惠券, img-url=https://raw.githubusercontent.com/linxi915/shuyuan/shuyuan/ICON/shuyuan.png, enabled=true
 
  */
 const $ = new Env('京东删除优惠券');
