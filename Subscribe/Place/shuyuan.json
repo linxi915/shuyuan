@@ -72,7 +72,7 @@
       "config": "30 7 * * * https://raw.githubusercontent.com/linxi915/shuyuan/shuyuan/Quantumult_X/JD_ddly.js, tag=东东乐园, img-url=https://raw.githubusercontent.com/linxi915/shuyuan/shuyuan/ICON/shuyuan.png, enabled=true"
     },
     {
-      "config": ""
+      "config": "11 * * * * https://raw.githubusercontent.com/linxi915/shuyuan/shuyuan/Quantumult_X/JD_ddcs.js, tag=东东超市, img-url=https://raw.githubusercontent.com/linxi915/shuyuan/shuyuan/ICON/shuyuan.png, enabled=true"
     },
     {
       "config": ""
