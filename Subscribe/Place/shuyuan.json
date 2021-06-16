@@ -69,7 +69,7 @@
       "config": "15 10 * * * https://raw.githubusercontent.com/linxi915/shuyuan/shuyuan/Quantumult_X/JD_djjl.js, tag=东东电竞经理, img-url=https://raw.githubusercontent.com/linxi915/shuyuan/shuyuan/ICON/shuyuan.png, enabled=true"
     },
     {
-      "config": ""
+      "config": "30 7 * * * https://raw.githubusercontent.com/linxi915/shuyuan/shuyuan/Quantumult_X/JD_ddly.js, tag=东东乐园, img-url=https://raw.githubusercontent.com/linxi915/shuyuan/shuyuan/ICON/shuyuan.png, enabled=true"
     },
     {
       "config": ""
