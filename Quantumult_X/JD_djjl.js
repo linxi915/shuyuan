@@ -9,7 +9,7 @@
  * 
  * 账号内循环助力
  * 
- * 15 10 * * * https://qxzy.top/rules/QuantumultX/js/zwf234/jd_electronicsports.js, tag=东东电竞经理, img-url=https://qxzy.top/rules/QuantumultX/img/jd.png, enabled=true
+ * 15 10 * * * https://raw.githubusercontent.com/linxi915/shuyuan/shuyuan/Quantumult_X/JD_djjl.js, tag=东东电竞经理, img-url=https://raw.githubusercontent.com/linxi915/shuyuan/shuyuan/ICON/shuyuan.png, enabled=true
  * 
  * 
  * 
