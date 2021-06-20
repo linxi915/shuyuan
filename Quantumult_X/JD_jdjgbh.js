@@ -8,7 +8,7 @@
 修改自：https://raw.githubusercontent.com/ZCY01/daily_scripts/main/jd/jd_priceProtect.js
 修改自：https://raw.githubusercontent.com/id77/QuantumultX/master/task/jdGuaranteedPrice.js
 
-京东保价页面脚本：https://static.360buyimg.com/siteppStatic/script/priceskus-phone.js
+京东保价页面脚本：https://raw.githubusercontent.com/linxi915/shuyuan/shuyuan/Quantumult_X/Prohibit/JD_bjdz.js
 iOS同时支持使用 NobyDa 与 domplin 脚本的京东 cookie
 活动时间：2021-2-14至2021-3-3
 活动地址：https://prodev.m.jd.com/jdlite/active/31U4T6S4PbcK83HyLPioeCWrD63j/index.html
