@@ -11,6 +11,7 @@ README：https://github.com/linxi915/shuyuan/tree/shuyuan/Quantumult_X/Compare
 README：https://github.com/linxi915/shuyuan/tree/shuyuan/Quantumult_X/Compare
  */
 
+
 const path1 = "serverConfig";
 const path2 = "wareBusiness";
 const path3 = "basicConfig";
