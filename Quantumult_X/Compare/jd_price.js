@@ -5,10 +5,10 @@
  */
 
 /*
-README：https://raw.githubusercontent.com/linxi915/shuyuan/shuyuan/Quantumult_X/Compare
+README：https://github.com/linxi915/shuyuan/tree/shuyuan/Quantumult_X/Compare
  */
 /*
-README：https://raw.githubusercontent.com/linxi915/shuyuan/shuyuan/Quantumult_X/Compare
+README：https://github.com/linxi915/shuyuan/tree/shuyuan/Quantumult_X/Compare
  */
 
 const path1 = "serverConfig";
