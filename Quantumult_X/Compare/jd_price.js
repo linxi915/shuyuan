@@ -5,10 +5,10 @@
  */
 
 /*
-README：https://github.com/yichahucha/surge/tree/master
+README：https://raw.githubusercontent.com/linxi915/shuyuan/shuyuan/Quantumult_X/Compare
  */
 /*
-README：https://github.com/yichahucha/surge/tree/master
+README：https://raw.githubusercontent.com/linxi915/shuyuan/shuyuan/Quantumult_X/Compare
  */
 
 const path1 = "serverConfig";
