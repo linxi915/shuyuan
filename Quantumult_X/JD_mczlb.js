@@ -1,6 +1,6 @@
 /**
 *
-    Name: 京喜牧场
+    Name: 京喜牧场助力版
     Address: 京喜App -> 我的 -> 京喜牧场
     Author: MoPoQAQ
     Created：2021/6/4 23:30
@@ -11,7 +11,7 @@
 ============Quantumultx===============
 [task_local]
 # 京喜牧场助力
-0 * * * * https://raw.githubusercontent.com/linxi915/shuyuan/shuyuan/Quantumult_X/JD_mczlb.js, tag=京喜牧场, img-url=https://raw.githubusercontent.com/linxi915/shuyuan/shuyuan/ICON/shuyuan.png, enabled=true
+0 * * * * https://raw.githubusercontent.com/linxi915/shuyuan/shuyuan/Quantumult_X/JD_mczlb.js, tag=京喜牧场助力版, img-url=https://raw.githubusercontent.com/linxi915/shuyuan/shuyuan/ICON/shuyuan.png, enabled=true
 *
 **/
 // prettier-ignore
