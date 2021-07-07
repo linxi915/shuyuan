@@ -8,7 +8,10 @@
     ！！！先将新手任务做完，再执行本脚本，不然会出现未知错误
 
     cron表达式 0 * * * * 或者 0 0 * * * *
-
+============Quantumultx===============
+[task_local]
+# 京喜牧场助力
+0 * * * * https://raw.githubusercontent.com/linxi915/shuyuan/shuyuan/Quantumult_X/JD_mczlb.js, tag=京喜牧场, img-url=https://raw.githubusercontent.com/linxi915/shuyuan/shuyuan/ICON/shuyuan.png, enabled=true
 *
 **/
 // prettier-ignore
