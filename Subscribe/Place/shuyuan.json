@@ -84,7 +84,7 @@
       "config": "0 2 * * * https://raw.githubusercontent.com/linxi915/shuyuan/shuyuan/Quantumult_X/JD_jdjgbh.js, tag=京东保价, img-url=https://raw.githubusercontent.com/linxi915/shuyuan/shuyuan/ICON/shuyuan.png, enabled=true"
     },
     {
-      "config": ""
+      "config": "5-45/20 * * * * https://raw.githubusercontent.com/linxi915/shuyuan/shuyuan/Quantumult_X/JD_jknlsj.js, tag=东东健康社区收集能量, img-url=https://raw.githubusercontent.com/linxi915/shuyuan/shuyuan/ICON/shuyuan.png, enabled=true"
     },
     {
       "config": ""
