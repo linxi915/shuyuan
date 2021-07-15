@@ -2,7 +2,6 @@
 *
     Name: 京喜牧场助力版
     Address: 京喜App -> 我的 -> 京喜牧场
-    Author: MoPoQAQ
     Created：2021/6/4 23:30
     Updated: 2021/6/29 16:00
     ！！！先将新手任务做完，再执行本脚本，不然会出现未知错误
