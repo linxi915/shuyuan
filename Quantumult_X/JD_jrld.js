@@ -5,7 +5,7 @@ Transport:2Ya
 ===================
 下载京东金融，进入app获取
 ===================
-
+0 0 * * * https://raw.githubusercontent.com/linxi915/shuyuan/shuyuan/Quantumult_X/JD_jrld.js, tag=京东金融领豆, img-url=https://raw.githubusercontent.com/linxi915/shuyuan/shuyuan/ICON/shuyuan.png, enabled=true
 ===================
 [MITM]
 hostname = ms.jr.jd.com
