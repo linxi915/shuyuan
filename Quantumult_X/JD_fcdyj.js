@@ -1,15 +1,15 @@
 /*
-省钱大赢家之翻翻乐
+极速版发财大赢家翻翻乐
 更新时间：2021-7-16
 一天可翻多次，但有上限
 运气好每次可得0.3元以上的微信现金(需京东账号绑定到微信)
 =================================Quantumultx=========================
 [task_local]
-#省钱大赢家之翻翻乐
-31 * * * * https://raw.githubusercontent.com/linxi915/shuyuan/shuyuan/Quantumult_X/JD_sqdyj.js, tag=省钱大赢家之翻翻乐, img-url=https://raw.githubusercontent.com/linxi915/shuyuan/shuyuan/ICON/shuyuan.png, enabled=true
+#发财大赢家翻翻乐
+31 * * * * https://raw.githubusercontent.com/linxi915/shuyuan/shuyuan/Quantumult_X/JD_fcdyj.js, tag=省钱大赢家之翻翻乐, img-url=https://raw.githubusercontent.com/linxi915/shuyuan/shuyuan/ICON/shuyuan.png, enabled=true
 
  */
-const $ = new Env('省钱大赢家之翻翻乐');
+const $ = new Env('发财大赢家翻翻乐');
 const notify = $.isNode() ? require('./sendNotify') : '';
 //Node.js用户请在jdCookie.js处填写京东ck;
 const jdCookieNode = $.isNode() ? require('./jdCookie.js') : '';
