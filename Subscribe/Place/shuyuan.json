@@ -90,7 +90,7 @@
       "config": "0 0-12/1 * * * https://raw.githubusercontent.com/linxi915/shuyuan/shuyuan/Quantumult_X/JD_mczlb.js, tag=京喜牧场助力版, img-url=https://raw.githubusercontent.com/linxi915/shuyuan/shuyuan/ICON/shuyuan.png, enabled=true"
     },
     {
-      "config": "30 0-23/1 * * * https://raw.githubusercontent.com/linxi915/Fork_sync/jd_scripts/jd_cfd_loop.js, tag=新惊喜财富岛气球, img-url=https://raw.githubusercontent.com/linxi915/shuyuan/shuyuan/ICON/shuyuan.png, enabled=true"
+      "config": "30 0-23/1 * * * https://raw.githubusercontent.com/linxi915/sync/jd_scripts/jd_cfd_loop.js, tag=新惊喜财富岛气球, img-url=https://raw.githubusercontent.com/linxi915/shuyuan/shuyuan/ICON/shuyuan.png, enabled=true"
     },
     {
       "config": "15 0-23/1 * * * https://raw.githubusercontent.com/linxi915/shuyuan/shuyuan/Quantumult_X/JD_jxcfd.js, tag=新京喜财富岛, img-url=https://raw.githubusercontent.com/linxi915/shuyuan/shuyuan/ICON/shuyuan.png, enabled=true"
