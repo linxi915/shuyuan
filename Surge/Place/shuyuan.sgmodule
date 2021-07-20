@@ -26,7 +26,7 @@ hostname = trade-acs.m.taobao.com, api.m.jd.com, *.bilibili.com, music.163.com, 
 
 获取互助码 = type=cron,cronexp=”20 13 * * 6“,wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/linxi915/shuyuan/shuyuan/Quantumult_X/JD_hqhzm.js
 
-京东物流派件提醒 = type=cron,cronexp=”0 12 * * *“,wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/linxi915/shuyuan/shuyuan/Quantumult_X/JD_pjtz.js
+京东物流派件提醒 = type=cron,cronexp=”0 12 * * *“,wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/linxi915/shuyuan/shuyuan/Quantumult_X/JD_pjtx.js
 
 整点京豆雨 = type=cron,cronexp=”1 0-23/1 * * *“,wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/linxi915/shuyuan/shuyuan/Quantumult_X/JD_zdjdy.js
 
