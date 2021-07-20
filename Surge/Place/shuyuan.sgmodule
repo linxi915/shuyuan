@@ -68,7 +68,7 @@ hostname = trade-acs.m.taobao.com, api.m.jd.com, *.bilibili.com, music.163.com, 
 
 惊喜牧场助力版 = type=cron,cronexp=”5 0-12/1 * * *“,wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/linxi915/shuyuan/shuyuan/Quantumult_X/JD_mczlb.js
 
-新惊喜财富岛气球 = type=cron,cronexp=”15 0-23/3 * * *“,wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/linxi915/shuyuan/shuyuan/Quantumult_X/jd_cfd_loop.js
+新惊喜财富岛气球 = type=cron,cronexp=”15 0-23/3 * * *“,wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/linxi915/sync/jd_scripts/jd_cfd_loop.js
 
 新惊喜财富岛 = type=cron,cronexp=”59 11,12,23 * * *“,wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/linxi915/shuyuan/shuyuan/Quantumult_X/JD_jxcfd.js
 
