@@ -8,13 +8,10 @@ Some Functions Modified From https://github.com/Zero-S1/JD_tools/blob/master/JD_
 [task_local]
 #东东超市
 11 * * * * https://raw.githubusercontent.com/linxi915/shuyuan/shuyuan/Quantumult_X/JD_ddcs.js, tag=东东超市, img-url=https://raw.githubusercontent.com/linxi915/shuyuan/shuyuan/ICON/shuyuan.png, enabled=true
-===========Loon===============
-[Script]
-cron "11 * * * *" script-path=https://raw.githubusercontent.com/linxi915/shuyuan/shuyuan/Quantumult_X/JD_ddcs.js,tag=东东超市
+
 =======Surge===========
 东东超市 = type=cron,cronexp="11 * * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/linxi915/shuyuan/shuyuan/Quantumult_X/JD_ddcs.js
-==============小火箭=============
-东东超市 = type=cron,script-path=https://raw.githubusercontent.com/linxi915/shuyuan/shuyuan/Quantumult_X/JD_ddcs.js, cronexpr="11 * * * *", timeout=3600, enable=true
+
  */
 const $ = new Env('东东超市');
 //Node.js用户请在jdCookie.js处填写京东ck;
