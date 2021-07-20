@@ -60,7 +60,7 @@ hostname = trade-acs.m.taobao.com, api.m.jd.com, *.bilibili.com, music.163.com, 
 
 东东工厂 = type=cron,cronexp=”10 * * * *“,wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/linxi915/shuyuan/shuyuan/Quantumult_X/JD_ddgc.js
 
-京东金融养猪 = type=cron,cronexp=”12 0-23/6 * * *“,wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/linxi915/shuyuan/shuyuan/Quantumult_X/JD_kryz.js
+京东金融养猪 = type=cron,cronexp=”12 0-23/6 * * *“,wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/linxi915/shuyuan/shuyuan/Quantumult_X/JD_jryz.js
 
 京东价格保护 = type=cron,cronexp=”0 2 * * *“,wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/linxi915/shuyuan/shuyuan/Quantumult_X/JD_jdjgbh.js
 
