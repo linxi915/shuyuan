@@ -106,6 +106,36 @@
     },
     {
       "config": "59 11,12,23 * * * https://raw.githubusercontent.com/linxi915/shuyuan/shuyuan/Quantumult_X/JD_cfdtx.js, tag=京喜财富岛提现, img-url=https://raw.githubusercontent.com/linxi915/shuyuan/shuyuan/ICON/shuyuan.png, enabled=true"
+    },
+    {
+      "config": "13 1,22 * * * https://raw.githubusercontent.com/linxi915/shuyuan/shuyuan/Quantumult_X/JD_cfdtx.js, tag=金榜创造营, img-url=https://raw.githubusercontent.com/linxi915/shuyuan/shuyuan/ICON/shuyuan.png, enabled=true"
+    },
+    {
+      "config": ""
+    },
+    {
+      "config": ""
+    },
+    {
+      "config": ""
+    },
+    {
+      "config": ""
+    },
+    {
+      "config": ""
+    },
+    {
+      "config": ""
+    },
+    {
+      "config": ""
+    },
+    {
+      "config": ""
+    },
+    {
+      "config": ""
     }
   ],
   "description": "https://github.com/linxi915/shuyuan"
