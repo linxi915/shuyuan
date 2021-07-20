@@ -6,10 +6,10 @@
 ===================quantumultx================
 [task_local]
 #金榜创造营
-13 1,22 * * * https://raw.githubusercontent.com/linxi915/shuyuan/shuyuan/Quantumult_X/JD_cfdtx.js, tag=金榜创造营, img-url=https://raw.githubusercontent.com/linxi915/shuyuan/shuyuan/ICON/shuyuan.png, enabled=true
+13 1,22 * * * https://raw.githubusercontent.com/linxi915/shuyuan/shuyuan/Quantumult_X/JD_jbczy.js, tag=金榜创造营, img-url=https://raw.githubusercontent.com/linxi915/shuyuan/shuyuan/ICON/shuyuan.png, enabled=true
 
 ====================Surge================
-金榜创造营 = type=cron,cronexp="13 1,22 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/linxi915/shuyuan/shuyuan/Quantumult_X/JD_cfdtx.js
+金榜创造营 = type=cron,cronexp="13 1,22 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/linxi915/shuyuan/shuyuan/Quantumult_X/JD_jbczy.js
 
 
  */
