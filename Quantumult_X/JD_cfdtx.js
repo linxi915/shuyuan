@@ -1,6 +1,6 @@
 /*
 京喜财富岛提现
-更新时间：2021-7-20
+更新时间：2021-7-23
 活动入口：京喜APP-我的-京喜财富岛提现
 
 ============Quantumultx===============
@@ -98,7 +98,7 @@ async function cfd() {
     nowTimes = new Date(new Date().getTime() + new Date().getTimezoneOffset() * 60 * 1000 + 8 * 60 * 60 * 1000)
     if ((nowTimes.getHours() === 11 || nowTimes.getHours() === 23) && nowTimes.getMinutes() === 59) {
       let nowtime = new Date().Format("s.S")
-      let starttime = $.isNode() ? (process.env.CFD_STARTTIME ? process.env.CFD_STARTTIME * 1 : 60) : ($.getdata('CFD_STARTTIME') ? $.getdata('CFD_STARTTIME') * 1 : 60);
+      let starttime = $.isNode() ? (process.env.CFD_STARTTIME ? process.env.CFD_STARTTIME * 1 : 59.5) : ($.getdata('CFD_STARTTIME') ? $.getdata('CFD_STARTTIME') * 1 : 59.5);
       if(nowtime < 59) {
         let sleeptime = (starttime - nowtime) * 1000;
         console.log(`等待时间 ${sleeptime / 1000}\n`);
@@ -106,11 +106,12 @@ async function cfd() {
       }
     }
 
-    const beginInfo = await getUserInfo(false);
     if ($.num % 2 !== 0) {
       console.log(`等待`)
       await $.wait(2000)
     }
+
+    const beginInfo = await getUserInfo(false);
     if (beginInfo.Fund.ddwFundTargTm === 0) {
       console.log(`还未开通活动，请先开通\n`)
       return
@@ -181,6 +182,8 @@ async function userCashOutState(type = true) {
                     } else {
                       await userCashOutState()
                     }
+                  } else {
+                    console.log(`${vo.ddwMoney / 100}元库存不足`)
                   }
                 }
               } else {
@@ -303,7 +306,7 @@ function buildLvlUp(body) {
 // 获取用户信息
 function getUserInfo(showInvite = true) {
   return new Promise(async (resolve) => {
-    $.get(taskUrl(`user/QueryUserInfo`), (err, resp, data) => {
+    $.get(taskUrl(`user/QueryUserInfo`, `strPgUUNum=${token['farm_jstoken']}&strPgtimestamp=${token['timestamp']}&strPhoneID=${token['phoneid']}`), (err, resp, data) => {
       try {
         if (err) {
           console.log(`${JSON.stringify(err)}`)
