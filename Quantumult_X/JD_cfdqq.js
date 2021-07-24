@@ -27,7 +27,7 @@ $.showLog = $.getdata("cfd_showLog") ? $.getdata("cfd_showLog") === "true" : fal
 $.notifyTime = $.getdata("cfd_notifyTime");
 $.result = [];
 $.shareCodes = [];
-let cookiesArr = [], cookie = '';
+let cookiesArr = [], cookie = '', token = '';
 
 if ($.isNode()) {
   Object.keys(jdCookieNode).forEach((item) => {
@@ -59,20 +59,16 @@ $.appId = 10028;
         $.index = i + 1;
         $.nickName = '';
         $.isLogin = true;
-        $.nickName = '';
         await TotalBean();
         console.log(`\n******开始【京东账号${$.index}】${$.nickName || $.UserName}*********\n`);
         if (!$.isLogin) {
-          // $.msg($.name, `【提示】cookie已失效`, `京东账号${$.index} ${$.nickName || $.UserName}\n请重新登录获取\nhttps://bean.m.jd.com/bean/signIndex.action`, {"open-url": "https://bean.m.jd.com/bean/signIndex.action"});
-  
-          // if ($.isNode()) {
-          //   await notify.sendNotify(`${$.name}cookie已失效 - ${$.UserName}`, `京东账号${$.index} ${$.UserName}\n请重新登录获取cookie`);
-          // }
+          $.log($.name, `【提示】cookie已失效`, `京东账号${$.index} ${$.nickName || $.UserName}\n请重新登录获取\nhttps://bean.m.jd.com/bean/signIndex.action`, {"open-url": "https://bean.m.jd.com/bean/signIndex.action"})
           continue
         }
         $.info = {}
+        token = await getJxToken()
         await cfd();
-        let time = getRndInteger(2000, 5000)
+        let time = process.env.CFD_LOOP_SLEEPTIME ? (process.env.CFD_LOOP_SLEEPTIME * 1 > 1000 ? process.env.CFD_LOOP_SLEEPTIME : process.env.CFD_LOOP_SLEEPTIME * 1000) : 5000
         await $.wait(time)
       }
     }
@@ -88,13 +84,81 @@ async function cfd() {
       console.log(`还未开通活动，请先开通\n`)
       return
     }
-    await $.wait(2000)
-    await speedUp()
+    if ($.info.buildInfo.dwTodaySpeedPeople !== 500) {
+      await $.wait(2000)
+      await speedUp()
+    } else {
+      console.log(`热气球接客已达上限，跳过执行\n`)
+    }
     await $.wait(2000)
     await queryshell()
   } catch (e) {
     $.logErr(e)
   }
+}
+
+// 卖贝壳
+async function querystorageroom() {
+  return new Promise(async (resolve) => {
+    $.get(taskUrl(`story/querystorageroom`), async (err, resp, data) => {
+      try {
+        if (err) {
+          console.log(`${JSON.stringify(err)}`)
+          console.log(`${$.name} querystorageroom API请求失败，请检查网路重试`)
+        } else {
+          data = JSON.parse(data);
+          console.log(`\n卖贝壳`)
+          let bags = []
+          for (let key of Object.keys(data.Data.Office)) {
+            let vo = data.Data.Office[key]
+            bags.push(vo.dwType)
+            bags.push(vo.dwCount)
+          }
+          if (bags.length !== 0) {
+            let strTypeCnt = ''
+            for (let j = 0; j < bags.length; j++) {
+              if (j % 2 === 0) {
+                strTypeCnt += `${bags[j]}:`
+              } else {
+                strTypeCnt += `${bags[j]}|`
+              }
+            }
+            await $.wait(1000)
+            await sellgoods(`strTypeCnt=${strTypeCnt}&dwSceneId=1`)
+          } else {
+            console.log(`背包是空的，快去捡贝壳吧\n`)
+          }
+        }
+      } catch (e) {
+        $.logErr(e, resp);
+      } finally {
+        resolve();
+      }
+    })
+  })
+}
+function sellgoods(body) {
+  return new Promise((resolve) => {
+    $.get(taskUrl(`story/sellgoods`, body), (err, resp, data) => {
+      try {
+        if (err) {
+          console.log(`${JSON.stringify(err)}`)
+          console.log(`${$.name} sellgoods API请求失败，请检查网路重试`)
+        } else {
+          data = JSON.parse(data);
+          if (data.iRet === 0) {
+            console.log(`贝壳出售成功：获得${data.Data.ddwCoin}金币 ${data.Data.ddwMoney}财富\n`)
+          } else {
+            console.log(`贝壳出售失败：${data.sErrMsg}\n`)
+          }
+        }
+      } catch (e) {
+        $.logErr(e, resp);
+      } finally {
+        resolve();
+      }
+    })
+  })
 }
 
 // 捡贝壳
@@ -110,8 +174,8 @@ async function queryshell() {
           for (let key of Object.keys(data.Data.NormShell)) {
             let vo = data.Data.NormShell[key]
             for (let j = 0; j < vo.dwNum; j++) {
-              await pickshell(`dwType=${vo.dwType}`)
               await $.wait(2000)
+              await pickshell(`dwType=${vo.dwType}`)
             }
           }
           console.log('')
@@ -124,9 +188,9 @@ async function queryshell() {
     })
   })
 }
-function pickshell(body) {
-  return new Promise((resolve) => {
-    $.get(taskUrl(`story/pickshell`, body), (err, resp, data) => {
+async function pickshell(body) {
+  return new Promise(async (resolve) => {
+    $.get(taskUrl(`story/pickshell`, body), async (err, resp, data) => {
       try {
         if (err) {
           console.log(`${JSON.stringify(err)}`)
@@ -152,6 +216,10 @@ function pickshell(body) {
           }
           if (data.iRet === 0) {
             console.log(`捡贝壳成功：捡到了${dwName}`)
+          } else if (data.iRet === 5403 || data.sErrMsg === '这种小贝壳背包放不下啦，先去卖掉一些吧~') {
+            console.log(`捡贝壳失败：${data.sErrMsg}`)
+            await $.wait(2000)
+            await querystorageroom()
           } else {
             console.log(`捡贝壳失败：${data.sErrMsg}`)
           }
@@ -177,6 +245,8 @@ async function speedUp() {
           data = JSON.parse(data);
           if (data.iRet === 0) {
             console.log(`热气球接客成功：已接待 ${data.dwTodaySpeedPeople} 人\n`)
+          } else if (data.iRet === 2027 || data.sErrMsg === '今天接待人数已达上限啦~') {
+            console.log(`热气球接客失败：${data.sErrMsg}\n`)
           } else {
             console.log(`热气球接客失败：${data.sErrMsg}\n`)
           }
@@ -193,7 +263,7 @@ async function speedUp() {
 // 获取用户信息
 function getUserInfo(showInvite = true) {
   return new Promise(async (resolve) => {
-    $.get(taskUrl(`user/QueryUserInfo`), (err, resp, data) => {
+    $.get(taskUrl(`user/QueryUserInfo`, `strPgUUNum=${token['farm_jstoken']}&strPgtimestamp=${token['timestamp']}&strPhoneID=${token['phoneid']}`), (err, resp, data) => {
       try {
         if (err) {
           console.log(`${JSON.stringify(err)}`)
@@ -250,11 +320,6 @@ function getUserInfo(showInvite = true) {
       }
     });
   });
-}
-
-// 随机数
-function getRndInteger(min, max) {
-  return Math.floor(Math.random() * (max - min) ) + min;
 }
 
 function taskUrl(function_path, body) {
@@ -320,9 +385,9 @@ function showMsg() {
 function TotalBean() {
   return new Promise(async resolve => {
     const options = {
-      url: "https://me-api.jd.com/user_new/info/GetJDUserInfoUnion",
+      url: "https://wq.jd.com/user_new/info/GetJDUserInfoUnion?sceneval=2",
       headers: {
-        Host: "me-api.jd.com",
+        Host: "wq.jd.com",
         Accept: "*/*",
         Connection: "keep-alive",
         Cookie: cookie,
@@ -339,11 +404,11 @@ function TotalBean() {
         } else {
           if (data) {
             data = JSON.parse(data);
-            if (data['retcode'] === "1001") {
+            if (data['retcode'] === 1001) {
               $.isLogin = false; //cookie过期
               return;
             }
-            if (data['retcode'] === "0" && data.data && data.data.hasOwnProperty("userInfo")) {
+            if (data['retcode'] === 0 && data.data && data.data.hasOwnProperty("userInfo")) {
               $.nickName = data.data.userInfo.baseInfo.nickname;
             }
           } else {
