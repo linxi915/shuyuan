@@ -111,7 +111,7 @@
       "config": "13 1,22 * * * https://raw.githubusercontent.com/linxi915/shuyuan/shuyuan/Quantumult_X/JD_jbczy.js, tag=金榜创造营, img-url=https://raw.githubusercontent.com/linxi915/shuyuan/shuyuan/ICON/shuyuan.png, enabled=true"
     },
     {
-      "config": ""
+      "config": "https://raw.githubusercontent.com/linxi915/shuyuan/shuyuan/Quantumult_X/JD_jxqd.js, tag=京喜签到, img-url=https://raw.githubusercontent.com/linxi915/shuyuan/shuyuan/ICON/shuyuan.png, enabled=true"
     },
     {
       "config": ""
