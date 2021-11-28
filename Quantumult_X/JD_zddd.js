@@ -23,9 +23,9 @@ const JD_API_HOST = 'https://api.m.jd.com/client.action';
 let shareCodes = [ // IOS本地脚本用户这个列表填入你要助力的好友的shareCode
                    //账号一的好友shareCode,不同好友的shareCode中间用@符号隔开
                    
-,
+'nzp2tgrdswxprok6dfstvq7mpjzl7p2gjzddzna@gou7sxm3hztwp6eoflq2xgbzeda26hf5h3b3hey@rtsljotwy2w34bnbir4fznt72ytcdpc4c2lnqsa',
   //账号二的好友shareCode,不同好友的shareCode中间用@符号隔开
-  ,
+  'nzp2tgrdswxprok6dfstvq7mpjzl7p2gjzddzna@gou7sxm3hztwp6eoflq2xgbzeda26hf5h3b3hey@rtsljotwy2w34bnbir4fznt72ytcdpc4c2lnqsa',
 ]
 let allMessage = ``;
 let currentRoundId = null;//本期活动id
