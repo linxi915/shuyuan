@@ -8,7 +8,7 @@
 ============Quantumultx===============
 [task_local]
 #金榜年终奖
-10 0,2 * * * https://raw.githubusercontent.com/linxi915/shuyuan/shuyuan/Quantumult_X/JD_jbnzj, tag=年终奖, enabled=true
+10 0,2 * * * https://raw.githubusercontent.com/linxi915/shuyuan/shuyuan/Quantumult_X/JD_jbnzj.js, tag=年终奖, enabled=true
  */
 const $ = new Env('金榜年终奖');
 const notify = $.isNode() ? require('./sendNotify') : '';
