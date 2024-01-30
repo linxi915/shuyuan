@@ -1,0 +1,9 @@
+#!name = 入口落地查询
+#!desc = 查看目标节点的入口落地详细信息
+#!openUrl = 
+#!author = Linxi
+#!homepage = https://raw.githubusercontent.com/linxi915/shuyuan
+#!icon = https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Universal/Speedtest.png
+#!date = 2023-09-14 17:20:34
+[Script]
+generic script-path = https://raw.githubusercontent.com/linxi915/shuyuan/shuyuan/Individual/Netisp.js, timeout = 60, tag = 入口落地查询, img-url = https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Universal/Speedtest.png
